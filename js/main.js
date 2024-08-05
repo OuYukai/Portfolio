@@ -33,3 +33,26 @@ const filterContainer = document.querySelector(".portfolio-filter-inner"),
           }
         })
       }
+
+/*========= nav =========*/
+const navContainer = document.querySelector(".nav"),
+      navBtns = navContainer.querySelectorAll("a"),
+      totalNavBtn = navBtns.length;
+
+      for (let i=0 ; i < totalNavBtn ; i ++)
+      {
+        navBtns[i].addEventListener("click", function()
+        {
+          navContainer.querySelector(".active").classList.remove("active");
+          this.classList.add("active");
+        })
+      }
+
+/*========= TESTIMOIAl =========*/
+var swiper = new Swiper('.swiper-container', {
+      loop: 'true',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });

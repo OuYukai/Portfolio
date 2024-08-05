@@ -1,4 +1,6 @@
 :root
 {
   --skin-color: #ec1839;
+  --gray-color: gray;
+  --primary-color: hsl(352, 75%, 60%);
 }

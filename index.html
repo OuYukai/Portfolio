@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>OuKai</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/color-1.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <!-- Main -->
@@ -21,9 +22,8 @@
 
         <ul class="nav">
           <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-          <li><a href="#"><i class="fa fa-user"></i> About</a></li>
-          <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-          <li><a href="#"><i class="fa fa-briefcase"></i> Protfolio</a></li>
+          <li><a href="#"><i class="fa fa-bookmark"></i> Unity Project</a></li>
+          <li><a href="#"><i class="fa fa-briefcase"></i> Other Works</a></li>
           <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li>
         </ul>
       </div>
@@ -87,15 +87,78 @@
           </div>
         </section>
       </div>
+
       <div class="main-contain">
-        <section class="portfolio section" id="portfolio">
+        <section class="section">
           <div class="container">
-            <h2 class="section-title padd-15">ARPG_Research</h2>
+            <div class="section-title padd-15">
+              <h2>KineX</h2>
+            </div>
+            <div class="swiper swiper-container">
+              <div class="swiper-wrapper">
+                <!-- testimoial item -->
+                <div class="testimonial-item swiper-slide">
+                  <div class="thumb">
+                    <iframe src="https://www.youtube.com/embed/Qgf3j11tyGk"></iframe>
+                  </div>
+                  <div class="comment">
+                    Game Demo</div>
+                </div>
+                <!-- testimoial item -->
+                <div class="testimonial-item swiper-slide">
+                  <div class="thumb">
+                    <img src="assets/img/BIG.jpg" alt="">
+                  </div>
+                  <div class="comment">
+                    1234567891012345678910</div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        <section class="context section">
+          <div class="container">
+            <div class="context-title padd-15">
+              <h2>專案概述</h2>
+            </div>
+            <div class="context-content padd-15">
+              <div class="context-text">
+                <h3>I'm Alimi Mousad and <span>Web Developer</span> </h3>
+                <p>為什麼你好對我們來說這麼重要？更多你好的意義是這樣的，你好因何而發生？要想清楚，你好，到底是一種怎麽樣的存在。
+                  愛爾蘭有講過一句名言，越是無能的人，越喜歡挑剔別人的錯兒。這句話語雖然很短，但令我浮想聯翩。我認為，我們都知道，只要有意義，那麽就必須慎重考慮。
+                  奧普拉·溫弗瑞曾經說過這麼一句話，你相信什麽，你就成為什麽樣的人。這似乎非常的有道理，對吧？我們不得不面對一個非常尷尬的事實，那就是，一般來說，曹操有講過一句名言，老驥伏櫪，志在千里;烈士暮年，壯心不已。這果然是一句至理名言。</p>
+              </div>
+            </div>
+            <div class="services row padd-15">
+              <!-- service item -->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <h3>Challenge</h3>
+                  <p>為什麼你好對我們來說這麼重要？更多你好的意義是這樣的</p>
+                </div>
+              </div>
+              <!-- service item -->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <h3>Challenge</h3>
+                  <p>為什麼你好對我們來說這麼重要？更多你好的意義是這樣的</p>
+                </div>
+              </div>
+              <!-- service item -->
+              <div class="service-item">
+                <div class="service-item-inner">
+                  <h3>Challenge</h3>
+                  <p>為什麼你好對我們來說這麼重要？更多你好的意義是這樣的</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </div>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
